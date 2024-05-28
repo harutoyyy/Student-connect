@@ -1,0 +1,334 @@
+@charset "utf-8";
+
+
+
+
+.navigation {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 330px;
+    height: 50px;
+    padding: 5px;
+}
+
+.navigation ul {
+   
+    margin: 10px;
+    padding: 0px;
+  
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.grade {
+    background-color: #dfdfdf;
+    padding: 20px;
+    text-align: left;
+}
+
+.activity {
+    padding: 20px;
+}
+
+.activity h1 {
+    margin-bottom: 10px;
+}
+
+.activity ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.activity ul li {
+    margin-bottom: 5px;
+}
+
+.news {
+    background-color: #e8e0e0;
+    padding: 20px;
+}
+
+.news h1 {
+    margin-bottom: 10px;
+}
+
+.news-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.schedule {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.schedule h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.schedule table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule th, .schedule td {
+    border: 1px solid #dcb7b7;
+    padding: 25px;
+    text-align: center;
+}
+
+.schedule th {
+    background-color: #f2f2f2;
+    color: #333;
+
+}
+
+.schedule tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.schedule tr:hover {
+    background-color: lightblue; /* Light blue on hover */
+}
+
+.schedule td.subject {
+    background-color: lightyellow; /* Light yellow for subjects */
+    color: #333;
+    font-weight: bold;
+}
+
+.schedule td.date {
+    background-color:lightgreen; /* Light green for dates */
+    color: #333;
+    font-weight: bold;
+}
+
+.schedule td.time {
+    background-color: lightblue; /* Light blue for times */
+    color: #333;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.attendance {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.attendance h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.attendance table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance th, .attendance td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.attendance th {
+    background-color: #f2f2f2;
+}
+
+.attendance tr.late {
+    background-color: #ffe6b3; /* Light yellow for late */
+}
+
+.attendance tr.absent {
+    background-color: #ffb3b3; /* Light red for absent */
+}
+
+/* Icons */
+.attendance td i {
+    margin-right: 5px;
+}
+
+/* Hover Animation */
+.attendance tr:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
+/* CSS for Student Connect */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.navigation {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    margin: 20px auto;
+    text-align: center;
+}
+/* CSS for Student Connect */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.navigation {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.assignment-table {
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.assignment-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.assignment-table th, .assignment-table td {
+    border: 1px solid #7d7c7c;
+    padding: 20px;
+    text-align: center;
+}
+
+.assignment-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.assignment-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.assignment-table tbody tr:hover {
+    background-color: #80c5ed;
+}
+
+.incomplete {
+    color:red
+}
